@@ -1,3 +1,6 @@
 opencv-python
 albumentations
 numpy
+pandas
+scikit-learn
+imbalanced-learn
