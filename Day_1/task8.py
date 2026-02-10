@@ -40,7 +40,7 @@ cv2.imshow("Original Image", img)
 cv2.imshow("Threshold", threshold)
 cv2.imshow("Edges", edges)
 
-# 9 Save final image
+# Save final image
 cv2.imwrite("final_img.jpg", edges)
 
 cv2.waitKey(0)
