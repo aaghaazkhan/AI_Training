@@ -27,7 +27,6 @@ class_id x_center y_center width height
 - Fine-tuned for: Tattoo detection (1 class)
 ---
 ### Training Configuration
-
 ```
 - Epochs: 100 (Early stopped at epoch 26)
 - Batch Size: 32
@@ -36,32 +35,32 @@ class_id x_center y_center width height
 - Image Size: 512
 - Device: GPU (CUDA)
 ```
-
+---
 ### Hardware Used
 - Training was performed locally on:
         NVIDIA RTX 3050 GPU
 - VRAM: 6 GB
-
+---
 ### Checkpoints Generated
-
+---
 - During training, YOLO automatically generated:
     1. last.pt - latest epoch weights
     2. best.pt - best validation performance weights
-
+---
 ### Final evaluation was done using:
 - best.pt
-
+---
 ### Validation Metrics (Best Model)
 - Precision: 1.00
 - Recall: 0.99
 - mAP@50: 0.995
 - mAP@50-95: 0.897
-
-
-#### ( NOTE: The validation metrics might be misleading due to less amount of data in the validation split.)
-
+---
 ### Important Links
 - Base Model: https://drive.google.com/drive/u/0/folders/1501rdRCBTjN5rMAZ2hl-WiNHsV05JLH_
 - Dataset: https://drive.google.com/drive/u/0/folders/1oOz60kMFMVD7Dt2V6hAhLI6Pxv5HyVAD
 - Training Checkpoints: https://drive.google.com/drive/u/0/folders/14NiMA-1CrR8_fWbpSmNEQEluMOncLd8M
 - Trained Model: https://drive.google.com/drive/u/0/folders/1uER4UQMt0PW4Zn6zMYG3qree6PfQVCPR
+---
+
+#### ( NOTE: The validation metrics might be misleading due to less amount of data in the validation split.)
