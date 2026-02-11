@@ -1,0 +1,12 @@
+# Virtual environment
+venv
+
+# YOLO training checkpoints and trained models
+runs/detect/tattoo/run1/weights
+
+# Dataset
+tattoo_dataset
+
+
+# Initial model
+Day_3_and_Day_4/yolov8s.pt
